@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import CreateTask from '../modals/CreateTask'
 import Card from './Card';
-
+//click npm start to run the project
  function TodoList() {
    const [modal,setModal] = useState(false);
    const [taskList, setTaskList] = useState([]);
